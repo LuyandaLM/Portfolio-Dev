@@ -4,6 +4,7 @@ import Image from "./012";
 const LandingPage = () => {
   return (
     <div>
+      {/* NAVIGATION BAR */}
         <div className="menu-wrap">
           <input type="checkbox" className="toggler" />
           <div className="hamburger"><div /></div>
@@ -21,7 +22,8 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        {/* Home */}
+
+        {/* HOME */}
         <section id="home">
           <div className="showcase">
             <div className="container">
@@ -36,7 +38,8 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
-        {/* About */}
+
+        {/* ABOUT */}
         <section id="about">
           <div className="container">
             <h2 className="about-title text-center pt-4">About Me</h2>
@@ -56,7 +59,8 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
-        {/* Skills */}
+
+        {/* SKILLS */}
         <section id="skills">
           <div className="container">
             <h2 className="skills-title text-center pt-4">Skills</h2>
@@ -101,7 +105,8 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
-        {/* Timeline */}
+
+        {/* TIMELINE */}
         <section id="timeline">
           <div className="container">
             <h2 className="timeline-title text-center pt-4">Timeline</h2>
@@ -170,7 +175,7 @@ const LandingPage = () => {
           <div className="row space-rows" id="animated-cards">
             <div className="col">
               <div className="card cards-shadown cards-hover">
-                <div className="card-header"><span className="space"><i class="far fa-comments service-icon" id="service-icon-1"/></span>
+                <div className="card-header"><span className="space"><i className="far fa-comments service-icon" id="service-icon-1"/></span>
                   <div className="cardheader-text">
                     <h4 id="heading-card-1" className="heading-card">Jason Wandrag</h4>
                     <p id="cardheader-subtext-1" className="cardheader-subtext">Senior Web Development</p>
@@ -184,7 +189,7 @@ const LandingPage = () => {
             </div>
             <div className="col">
               <div className="card cards-shadown cards-hover">
-                <div className="card-header"><span className="space"><i class="far fa-comments service-icon" id="service-icon-2"/></span>
+                <div className="card-header"><span className="space"><i className="far fa-comments service-icon" id="service-icon-2"/></span>
                   <div className="cardheader-text">
                     <h4 id="heading-card-2" className="heading-card">Tyron Keet</h4>
                     <p id="cardheader-subtext-2" className="cardheader-subtext">Colleague</p>
@@ -198,7 +203,7 @@ const LandingPage = () => {
             </div>
             <div className="col">
               <div className="card cards-shadown cards-hover">
-                <div className="card-header cards-header-hover"><span className="space"><i class="far fa-comments service-icon" id="service-icon-3"/></span>
+                <div className="card-header cards-header-hover"><span className="space"><i className="far fa-comments service-icon" id="service-icon-3"/></span>
                   <div className="cardheader-text">
                     <h4 id="heading-card-3" className="heading-card">Akholiwe Mtukuse</h4>
                     <p id="cardheader-subtext-3" className="cardheader-subtext">Lorem Ipsum</p>
@@ -213,87 +218,193 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* PROJECTS */}
         <section id="work">
           <div className="container">
             <h2 className="work-title text-center pt-4">Projects</h2>
             <div className="bottom-line" />
             <div className="work-content py-3">
               <div>
-                <a href="#" target="_blank">
-                  <img src="https://i.postimg.cc/dtwYT5pg/Covid-Tracker-Java.png" alt="Covid Tracker" />
+                <a href="https://githubfinder2705.netlify.app/" target="_blank">
+                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
                 </a>
                 <div>
-                  <a href="#" target="_blank">
-                    <h2>Covid Tracker</h2>
+                  <a href="https://githubfinder2705.netlify.app/" target="_blank">
+                    <h2>Github Finder</h2>
                   </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam, magnam nostrum
-                    ab in saepe tempora quibusdam perspiciatis earum consequuntur?</p>
+                  <p>This is a full stack React app to search Github profiles</p>
                 </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Github-repo</th>
+                        <th>Live-link</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          {/* SLIDER1 LEFT */}
+                          <a className="slider slider-left fb" href="https://github.com/Luyanda-Tommy27/GITHUB-FINDER-PROJECT">
+                            <div className="slide-1">
+                              <span className="fi-social-facebook" />
+                            </div>
+                            <div className="slide-2">Repo</div>
+                          </a>
+                        </td>
+                        <td>
+                          {/* SLIDER1 RIGHT */}
+                          <a className="slider slider-right twitter" href="https://githubfinder2705.netlify.app/">
+                            <div className="slide-1">
+                              <span className="fi-social-twitter" />
+                            </div>
+                            <div className="slide-2">Live link</div>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
               </div>
               <div>
                 <a href="#" target="_blank">
-                  <img src="https://i.postimg.cc/DwRp1Zmm/Film-Flix.png" alt="Film Flix" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_CZaZAyrPT8VQnqN_hLzpmiBI3Y41F6Now&usqp=CAU" />
                 </a>
                 <div>
                   <a href="#" target="_blank">
-                    <h2>Film Flix</h2>
+                    <h2>Contact Keeper</h2>
                   </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam, magnam nostrum ab in
-                    saepe tempora quibusdam perspiciatis earum consequuntur?</p>
+                  <p>This is a personal database system to store information about
+                your friends, family and colleges in one central place</p>
                 </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Github-repo</th>
+                        <th>Live-link</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          {/* SLIDER2 LEFT */}
+                          <a className="slider slider-left fb" href="#">
+                            <div className="slide-1">
+                              <span className="fi-social-facebook" />
+                            </div>
+                            <div className="slide-2">Repo</div>
+                          </a>
+                        </td>
+                        <td>
+                          {/* SLIDER2 RIGHT */}
+                          <a className="slider slider-right twitter" href="#">
+                            <div className="slide-1">
+                              <span className="fi-social-twitter" />
+                            </div>
+                            <div className="slide-2">Live link</div>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
               </div>
-              <div>
-                <a href="#" target="_blank">
-                  <img src="https://i.postimg.cc/nLv27G6w/Klimatic-Flutter.png" alt="Klimatic Flutter" />
-                </a>
                 <div>
                   <a href="#" target="_blank">
-                    <h2>Klimatic Flutter</h2>
+                    <img src="https://www.businesshorsepower.com/wp-content/uploads/2015/08/Business-Systems1.jpg" alt="Klimatic Flutter" />
                   </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam, magnam nostrum ab in
-                    saepe tempora quibusdam perspiciatis earum consequuntur?</p>
+                  <div>
+                    <a href="#" target="_blank">
+                      <h2>IT Logger</h2>
+                    </a>
+                    <p>A computer app for making a systematic recording of events,
+                  observations, or measurements</p>
+                  </div>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Github-repo</th>
+                          <th>Live-link</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            {/* SLIDER3 LEFT */}
+                            <a className="slider slider-left fb" href="#">
+                              <div className="slide-1">
+                                <span className="fi-social-facebook" />
+                              </div>
+                              <div className="slide-2">Repo</div>
+                            </a>
+                          </td>
+                          <td>
+                            {/* SLIDER3 RIGHT */}
+                            <a className="slider slider-right twitter" href="#">
+                              <div className="slide-1">
+                                <span className="fi-social-twitter" />
+                              </div>
+                              <div className="slide-2">Live link</div>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
-              </div>
             </div>
           </div>
         </section>
+        
+        {/* CONTACT */}
         <section id="contact">
-          <div className="container">
-            <h2 className="contact-title text-center pt-4">Contact</h2>
-            <div className="bottom-line" />
-            <p className="text-center lead pt-1">For any queries, please do contact me with the information below:</p>
-            <div className="contact-content py-3">
-              <div className="text-center">
-                <a href="https://www.facebook.com/divij.gupta.73" target="_blank">
-                  <i className="fab fa-facebook fa-4x" />
-                </a>
-              </div>
-              <div className="text-center">
-                <a href="https://www.linkedin.com/in/divij-gupta-9b1368154/" target="_blank">
-                  <i className="fab fa-linkedin fa-4x" />
-                </a>
-              </div>
-              <div className="text-center">
-                <a href="https://github.com/divijgupta970" target="_blank">
-                  <i className="fab fa-github-square fa-4x" />
-                </a>
+        <h1 className="section-header">CONTACT</h1>
+        <div className="contact-wrapper">
+          {/*-------------- CONTACT PAGE LEFT ---------------*/} 
+          <form className="form-horizontal" role="form" method="post" action="mailto:luyandamabozo@gmail.com">
+            <div className="form-group">
+              <div className="col-lg-6" >
+                <input type="text" className="form-control" id="name" placeholder="NAME" name="name" defaultValue required />
               </div>
             </div>
-            <div className="contact-address">
-              <div className="text-center py-2">
-                <i className="fas fa-envelope fa-3x my-1" />
-                <p>divijgupta66@gmail.com</p>
-              </div>
-              <div className="text-center py-2">
-                <i className="fas fa-phone fa-3x my-1" />
-                <p>999-999-9999</p>
+            <div className="form-group">
+              <div className="col-lg-6">
+                <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email" defaultValue required />
               </div>
             </div>
+            <textarea className="form-control" rows={10} placeholder="MESSAGE" name="message" required defaultValue={""} />
+            <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div className="button">
+                <i className="fa fa-paper-plane" /><span className="send-text">SEND</span>
+              </div>
+            </button>
+          </form>
+
+          {/*-------------- CONTACT PAGE RIGHT ---------------*/} 
+          <div className="direct-contact-container">
+            <ul className="contact-list">
+              <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">Cape Town, South Africa</span></i></li>
+              <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text phone"><a href="tel:+27-84-722-9233" title="Give me a call">(084) 722-9233</a></span></i></li>
+              <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail"><a href="mailto:#" title="Send me an email">Luyandamabozo@gmail.com</a></span></i></li>
+            </ul>
+            <hr />
+            <ul className="social-media-list">
+              <li><a href="#" target="_blank" className="contact-icon">
+                  <i className="fa fa-github" aria-hidden="true" /></a>
+              </li>
+              <li><a href="#" target="_blank" className="contact-icon">
+                  <i className="fa fa-twitter" aria-hidden="true" /></a>
+              </li>
+              <li><a href="#" target="_blank" className="contact-icon">
+                  <i className="fa fa-instagram" aria-hidden="true" /></a>
+              </li>
+              <li><a href="#" target="_blank" className="contact-icon">
+                  <i className="fa fa-codepen" aria-hidden="true" /></a>
+              </li>
+            </ul>
+            <hr />
           </div>
-        </section>
-        <footer id="footer">
-          <div className="footer-content text-center">
-          </div></footer></div>
+        </div>
+      </section>
+      </div>
   );
 };
 

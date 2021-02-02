@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Layout, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Content } from "react-mdl";
 import Main from "./components/main";
-import { Link } from "react-router-dom";
 
 const App = () => {
   return (

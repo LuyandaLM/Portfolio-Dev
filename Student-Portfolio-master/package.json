@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "materialize-css": "^1.0.0-rc.2",
+    "netlify-cli": "^3.4.2",
     "react": "^16.2.0",
     "react-bootstrap": "^1.3.0",
     "react-css": "0.0.2",
@@ -20,5 +21,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "devDependencies": {
+    "xxxxx": "^1.0.3"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
