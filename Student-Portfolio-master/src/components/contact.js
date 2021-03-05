@@ -17,19 +17,19 @@ const ContactUs = () => {
           <b>Name:</b>
         </h6>
         <br />
-        <input type="text" name="name" required />
+        <input type="text" required />
         <br />
         <h6>
           <b>Email:</b>
         </h6>
         <br />
-        <input type="text" name="mail" required />
+        <input type="text" required />
         <br />
         <h6>
           <b>Comment:</b>
         </h6>
         <br />
-        <input type="text" name="comment" size="50" required />
+        <input type="text" size="50" required />
         <br />
         <br />
         <button className="btn btn-warning btn-sm">
